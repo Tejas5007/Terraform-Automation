@@ -10,12 +10,12 @@ variable "key_name" {
 
 variable "instance_type" { 
     description = "instance type for ec2" 
-    default     =  "t2.micro" 
+    default     =  "t3.small" 
 }
 
 variable "security_group" { 
     description = "Name of security group" 
-    default     = "jenkins-sg-2022" 
+    default     = "jenkins-sgroup-dec-2021" 
 }
 
 variable "tag_name" { 
