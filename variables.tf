@@ -13,7 +13,7 @@ variable "instance_type" {
     default     =  "t2.micro" 
 }
 
-variable "aws_security_group" { 
+variable "security_group" { 
     description = "Name of security group" 
     default     = "jenkins-sg-2022" 
 }
